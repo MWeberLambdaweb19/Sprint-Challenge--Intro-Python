@@ -46,11 +46,11 @@ def cityreader(cities=[]):
 #   print(c.name)
 # print(len(cityreader()))
 
-# cityreader(cities)
+cityreader(cities)
 
-# # # Print the list of cities (name, lat, lon), 1 record per line.
-# for c in cities:
-#     print(c.name)
+# # Print the list of cities (name, lat, lon), 1 record per line.
+for c in cities:
+    print(c.name)
 
 # # STRETCH GOAL!
 # #
