@@ -40,12 +40,6 @@ def cityreader(cities=[]):
       
     return cities
 
-
-# cityreaded = cityreader()
-# for c in cityreaded:
-#   print(c.name)
-# print(len(cityreader()))
-
 cityreader(cities)
 
 # # Print the list of cities (name, lat, lon), 1 record per line.
